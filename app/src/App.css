@@ -12,11 +12,44 @@ body{
   height: 50vh;
   background-image: linear-gradient(#191b3a,white);
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 h1{
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: underline;
 }
-
-
+h3{
+  margin-bottom: -1.2%;
+  text-decoration: underline;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.prices{
+  display: flex;
+  margin-left: 30%;
+  text-decoration: underline;
+  color:black;
+}
+p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 1%;
+  text-transform: capitalize;
+  margin-top: 3%;
+  font-size: medium;
+}
+h2{
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+}
+nav{
+  width: 80%;
+  background-image: linear-gradient(#adb1fd,white,white,#adb1fd);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 3%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

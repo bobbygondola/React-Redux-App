@@ -11,13 +11,13 @@ const Home = props => {
   return <div>
       {props.isFetching && <h3>Fetching Data...</h3>}
       <div>
-        <h3>{props.data.map(item => {
+        <p>{props.data.map(item => {
             return(
                 <div className='outer'>
                     <Card item={item}/>
                 </div>
             )
-        })}</h3>
+        })}</p>
       </div>
       </div>
     
