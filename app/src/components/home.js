@@ -1,21 +1,29 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import { fetchCoins } from "../store/actions/action";
+import Card from "./card"
 
-const Home = (props) => {
+const Home = props => {
     console.log("props data", props.data)
   useEffect(() => {
     props.fetchCoins();
   }, []);
   return <div>
       {props.isFetching && <h3>Fetching Data...</h3>}
-
-      <div className="coinCard">
+      <div>
+        <h3>{props.data.map(item => {
+            return(
+                <div className='outer'>
+                    <Card item={item}/>
+                </div>
+            )
+        })}</h3>
       </div>
-      </div>;
+      </div>
+    
 };
 const mapStateToProps = (state) => {
-  console.log("mapStateToProps", state);
+  console.log("mapStateToProps", {state});
   return {
       isFetching: state.isFetching,
       data: state.data,

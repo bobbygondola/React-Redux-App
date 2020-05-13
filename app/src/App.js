@@ -5,7 +5,8 @@ import Home from './components/home'
 function App() {
   return (
     <div className="App">
-      <h1>Crypto Base</h1>
+      <h1>CryptoBase.com</h1>
+      <p>We keep track of your coins</p>
       <Home />
     </div>
   );

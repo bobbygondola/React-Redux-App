@@ -14,7 +14,7 @@ export const fetchCoins = () => {
         "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false"
       )
       .then((res) => {
-        console.log("this is from the axios..res.data", res.data);
+        console.log("this is from the axios..res.data", res.data[0]);
         dispatch({ type: FETCH_COIN_SUCCESS, payload: res.data})
       });
   };
