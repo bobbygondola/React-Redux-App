@@ -9,7 +9,7 @@ function App() {
         <span>Home</span><span>About</span><span>Donate Now!</span><span>All About Crypto!</span>
       </nav>
       <h1>CryptoBase.com</h1>
-      <p>We keep track of your coins</p>
+      <p>We keep track of your coins..</p>
       <Home />
     </div>
   );

@@ -2,18 +2,19 @@
   text-align: center;
 }
 body{
-  background-image: linear-gradient(#adb1fd,white);
+  background-image: linear-gradient(#f0f1ff,rgb(150, 149, 149));
   height: 100%;
 }
 .card{
-  border: 1px solid black;
+  
   width: 80%;
   margin: 0 auto;
   height: 50vh;
-  background-image: linear-gradient(#191b3a,white);
+  background-image: linear-gradient(#191b3a,#f0f1ff);
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
+  margin-bottom: 5%;
 }
 
 h1{
@@ -24,7 +25,7 @@ h3{
   margin-bottom: -1.2%;
   text-decoration: underline;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
+  color: #f5f5f5;
 }
 .prices{
   display: flex;
@@ -41,11 +42,11 @@ p{
 }
 h2{
   text-decoration: underline;
-  color: rgb(255, 255, 255);
+  color: #f0f1ff;
 }
 nav{
   width: 80%;
-  background-image: linear-gradient(#adb1fd,white,white,#adb1fd);
+  background-image: linear-gradient(#f0f1ff,white,white,#f0f1ff);
   margin: 0 auto;
   display: flex;
   justify-content: center;
